@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: stretch;
+}
+
+#root {
+  flex-grow:4;
+  
+  border-right:2px solid black; 
+}
+#detail {
+  flex-grow:6; 
+  float: right;
+  
+  
+  
+}
+.detail-client {
+  text-align: center;
+}
+.input-b {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+.App {
+  margin: 25px;
+}
